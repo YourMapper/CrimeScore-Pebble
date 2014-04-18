@@ -1,0 +1,47 @@
+{
+    "versionLabel": "1.01",
+    "uuid": "5a240af5-6d64-4d4a-bc0c-d61758aee8b4",
+    "appKeys": {
+        "Alerts": 10,
+        "GPSFix": 5,
+        "Success": 1,
+        "Grade": 7,
+        "Crimes": 9,
+        "Refresh": 3,
+        "Score": 2,
+        "Location": 6,
+        "Threshold": 11,
+        "Message": 8,
+        "MSKey": 4
+    },
+    "longName": "CrimeScore for Pebble",
+    "versionCode": 6,
+    "capabilities": [
+        "location"
+    ],
+    "shortName": "CrimeScore",
+    "companyName": "STIdeas",
+    "watchapp": {
+        "watchface": false
+    },
+    "resources": {
+        "media": [
+            {
+                "type": "png",
+                "name": "IMAGE_SPLASH",
+                "file": "images/splash.png"
+            },
+            {
+                "menuIcon": true,
+                "type": "png",
+                "name": "IMAGE_PROGRAM",
+                "file": "images/program.png"
+            },
+            {
+                "type": "png",
+                "name": "IMAGE_BADGE",
+                "file": "images/CrimeScoreBadge.png"
+            }
+        ]
+    }
+}
